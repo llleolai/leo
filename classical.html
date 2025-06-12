@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>古典樂介紹</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <ul class="navbar">
+      <li><a href="home.html" class="active">首頁</a></li>
+      <li><a href="index.html">關於我</a></li>
+      <li><a href="classical.html" class="active">古典樂</a></li>
+      <li><a href="games.html">遊戲</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="section about about-with-image">
+      <div class="about-text">
+        <p>古典音樂帶給我平靜和靈感，喜歡貝多芬、莫札特和巴哈的作品。</p>
+        <p>每當聽到鋼琴與小提琴的和鳴，彷彿穿越時空，感受音樂的魅力。</p>
+      </div>
+      <div class="about-image">
+        <img src="https://attach.setn.com/newsimages/2018/04/18/1325853-PH.jpg" alt="古典樂圖片" />
+      </div>
+  </div>
+
+    <div class="section timeline-chart">
+        <h2>⏳ 作曲家間軸</h2>
+        <svg id="timelineSVG" width="900" height="150" viewBox="0 0 900 150" style="border:1px solid #cbbca4; background:#fcf7ee;"></svg>
+    <div id="infoBox" class="info-box">點作曲家看介紹</div>
+    </div>
+
+    <div class="section classical-facts">
+    <h2>🎼 古典樂小知識</h2>
+    <button id="factBtn">小知識</button>
+    <p id="factText" class="fact-text">按下按鈕看看！</p>
+    </div>
+
+    <div class="section footer">
+      <p>&copy; 2025 賴叡興 — 保留所有權利</p>
+    </div>
+  </div>
+
+  <button id="backToTop" title="回到最上方">↑</button>
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>js Final Web</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+<body>
+  <nav>
+    <ul class="navbar">
+      <li><a href="home.html" class="active">首頁</a></li>
+      <li><a href="index.html" class="active">關於我</a></li>
+      <li><a href="classical.html">古典樂</a></li>
+      <li><a href="games.html">遊戲</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="section header">
+      <h1>關於我</h1>
+      <p>熱愛學習與挑戰的我，喜歡不斷成長和探索新事物</p>
+    </div>
+    <div class="section about">
+      <h2>👤 自我介紹</h2>
+      <p>Hi，我是賴叡興，專注於軟體開發，樂於面對挑戰，目標是成為能夠帶來影響力的軟體工程師。</p>
+    </div>
+
+<div class="section skills">
+  <h2>📚 我會的語法與技能</h2>
+  <h3>語法</h3>
+  <ul class="skills-list">
+    <li><i class="fab fa-html5" aria-hidden="true"></i> HTML</li>
+    <li><i class="fab fa-css3-alt" aria-hidden="true"></i> CSS</li>
+    <li><i class="fab fa-js-square" aria-hidden="true"></i> JavaScript</li>
+    <li><i class="fab fa-php" aria-hidden="true"></i> PHP</li>
+  </ul>
+  <h3>技能</h3>
+  <ul class="skills-list">
+    <li><i class="fas fa-database" aria-hidden="true"></i> MySQL</li>
+    <li><i class="fab fa-laravel" aria-hidden="true"></i> Laravel</li>
+  </ul>
+</div>
+    <div class="section quote">
+      <h2>💬 座右銘</h2>
+      <button onclick="showQuote()">點我顯示</button>
+      <p id="quote" class="quote-text"></p>
+    </div>
+    <div class="section footer">
+      <p>&copy; 2025 賴叡興 — 保留所有權利</p>
+    </div>
+  </div>
+
+  <button id="backToTop" title="回到最上方">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
